@@ -46,8 +46,8 @@ int main( int count_of_command_line_arg, list_of_all_command_line_arg){
 	   double total = event1 + event2;
 	   
 	   //determinne the next event, and update time
-	   
-	   
+	    double r = (double)rand() / (double)RAND_MAX;
+            t_current += -1/total * log10(r);
 	   
 	   //determinne the next event, and update event/populations
 	   
